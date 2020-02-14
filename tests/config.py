@@ -3,7 +3,8 @@ class Config:
 
         self.base_url = {
             'dev': 'https://mydev-env.com',
-            'qa': 'https://myqa-env.com'
+            'qa': 'https://myqa-env.com',
+            
         }[env]
 
         self.app_port = {
